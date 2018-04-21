@@ -1,0 +1,9 @@
+module "copy01"
+
+struct A {}
+
+def main(): unit {
+    let a = A {};
+    let b = a;
+    ()
+}

@@ -1,0 +1,13 @@
+module "object"
+
+def main() {}
+
+/*
+struct A {
+    a: i32;
+}
+
+def main() {
+
+}
+*/

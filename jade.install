@@ -1,0 +1,63 @@
+lib: [
+  "_build/install/default/lib/jade/META" {"META"}
+  "_build/install/default/lib/jade/opam" {"opam"}
+  "_build/install/default/lib/jade/jade__Backend.cmi" {"jade__Backend.cmi"}
+  "_build/install/default/lib/jade/jade__Backend.cmx" {"jade__Backend.cmx"}
+  "_build/install/default/lib/jade/jade__Backend.cmt" {"jade__Backend.cmt"}
+  "_build/install/default/lib/jade/backend.ml" {"backend.ml"}
+  "_build/install/default/lib/jade/jade__Context.cmi" {"jade__Context.cmi"}
+  "_build/install/default/lib/jade/jade__Context.cmx" {"jade__Context.cmx"}
+  "_build/install/default/lib/jade/jade__Context.cmt" {"jade__Context.cmt"}
+  "_build/install/default/lib/jade/context.ml" {"context.ml"}
+  "_build/install/default/lib/jade/jade__Env.cmi" {"jade__Env.cmi"}
+  "_build/install/default/lib/jade/jade__Env.cmx" {"jade__Env.cmx"}
+  "_build/install/default/lib/jade/jade__Env.cmt" {"jade__Env.cmt"}
+  "_build/install/default/lib/jade/env.ml" {"env.ml"}
+  "_build/install/default/lib/jade/jade__Error.cmi" {"jade__Error.cmi"}
+  "_build/install/default/lib/jade/jade__Error.cmx" {"jade__Error.cmx"}
+  "_build/install/default/lib/jade/jade__Error.cmt" {"jade__Error.cmt"}
+  "_build/install/default/lib/jade/error.ml" {"error.ml"}
+  "_build/install/default/lib/jade/jade__Error_msg.cmi" {"jade__Error_msg.cmi"}
+  "_build/install/default/lib/jade/jade__Error_msg.cmx" {"jade__Error_msg.cmx"}
+  "_build/install/default/lib/jade/jade__Error_msg.cmt" {"jade__Error_msg.cmt"}
+  "_build/install/default/lib/jade/error_msg.ml" {"error_msg.ml"}
+  "_build/install/default/lib/jade/jade__Generator.cmi" {"jade__Generator.cmi"}
+  "_build/install/default/lib/jade/jade__Generator.cmx" {"jade__Generator.cmx"}
+  "_build/install/default/lib/jade/jade__Generator.cmt" {"jade__Generator.cmt"}
+  "_build/install/default/lib/jade/generator.ml" {"generator.ml"}
+  "_build/install/default/lib/jade/jade.cmi" {"jade.cmi"}
+  "_build/install/default/lib/jade/jade.cmx" {"jade.cmx"}
+  "_build/install/default/lib/jade/jade.cmt" {"jade.cmt"}
+  "_build/install/default/lib/jade/jade.ml-gen" {"jade.ml-gen"}
+  "_build/install/default/lib/jade/jade__K_normal.cmi" {"jade__K_normal.cmi"}
+  "_build/install/default/lib/jade/jade__K_normal.cmx" {"jade__K_normal.cmx"}
+  "_build/install/default/lib/jade/jade__K_normal.cmt" {"jade__K_normal.cmt"}
+  "_build/install/default/lib/jade/k_normal.ml" {"k_normal.ml"}
+  "_build/install/default/lib/jade/jade__Lir.cmi" {"jade__Lir.cmi"}
+  "_build/install/default/lib/jade/jade__Lir.cmx" {"jade__Lir.cmx"}
+  "_build/install/default/lib/jade/jade__Lir.cmt" {"jade__Lir.cmt"}
+  "_build/install/default/lib/jade/lir.ml" {"lir.ml"}
+  "_build/install/default/lib/jade/jade__Loc.cmi" {"jade__Loc.cmi"}
+  "_build/install/default/lib/jade/jade__Loc.cmx" {"jade__Loc.cmx"}
+  "_build/install/default/lib/jade/jade__Loc.cmt" {"jade__Loc.cmt"}
+  "_build/install/default/lib/jade/loc.ml" {"loc.ml"}
+  "_build/install/default/lib/jade/jade__Mir.cmi" {"jade__Mir.cmi"}
+  "_build/install/default/lib/jade/jade__Mir.cmx" {"jade__Mir.cmx"}
+  "_build/install/default/lib/jade/jade__Mir.cmt" {"jade__Mir.cmt"}
+  "_build/install/default/lib/jade/mir.ml" {"mir.ml"}
+  "_build/install/default/lib/jade/jade__Type_check.cmi" {"jade__Type_check.cmi"}
+  "_build/install/default/lib/jade/jade__Type_check.cmx" {"jade__Type_check.cmx"}
+  "_build/install/default/lib/jade/jade__Type_check.cmt" {"jade__Type_check.cmt"}
+  "_build/install/default/lib/jade/type_check.ml" {"type_check.ml"}
+  "_build/install/default/lib/jade/jade.cma" {"jade.cma"}
+  "_build/install/default/lib/jade/jade.cmxa" {"jade.cmxa"}
+  "_build/install/default/lib/jade/jade.a" {"jade.a"}
+  "_build/install/default/lib/jade/jade.cmxs" {"jade.cmxs"}
+  "_build/install/default/lib/jade/jade.dune" {"jade.dune"}
+]
+bin: [
+  "_build/install/default/bin/rillirc" {"rillirc"}
+]
+doc: [
+  "_build/install/default/doc/jade/README.md"
+]

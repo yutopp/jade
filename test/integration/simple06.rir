@@ -1,0 +1,12 @@
+module "simple06"
+
+def main() {
+    a();
+    ()
+}
+
+def a(): i32 {
+    let a = 10;
+    let b = a;
+    b
+}

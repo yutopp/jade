@@ -1,0 +1,8 @@
+(jbuild_version 1)
+
+(library
+ ((name        jade)
+  (public_name jade)
+  (libraries   (batteries llvm llvm.all_backends llvm.analysis))
+  (preprocess  (pps (ppx_deriving.show)))
+  (synopsis    "")))

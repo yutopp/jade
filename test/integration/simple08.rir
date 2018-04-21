@@ -1,0 +1,9 @@
+module "simple08"
+
+def main(): i32{
+    if true {
+       1 * 2
+    } else {
+       0
+    }
+}

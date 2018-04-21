@@ -1,0 +1,5 @@
+module "simple02"
+
+def main(c: i32): i32 {
+    c
+}

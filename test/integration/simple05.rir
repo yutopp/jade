@@ -1,0 +1,5 @@
+module "simple05"
+
+def main(): i32 {
+    10 + (20 * 30)
+}

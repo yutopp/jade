@@ -1,0 +1,6 @@
+module "simple04"
+
+def main() {
+    10;
+    ()
+}

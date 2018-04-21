@@ -1,0 +1,13 @@
+module "struct02"
+
+struct A {
+  a: i32;
+  b: i1
+}
+
+def main(): unit {
+  //let a = A { b = true };
+  let a0 = A { a = 1, b = false };
+  let a1 = A { b = true, a = 10 };
+  ()
+}

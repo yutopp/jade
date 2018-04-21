@@ -1,0 +1,9 @@
+module "simple03"
+
+def main(): i32 {
+    if false {
+        10
+    } else {
+        20
+    }
+}

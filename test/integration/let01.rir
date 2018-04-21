@@ -1,0 +1,6 @@
+module "let01"
+
+def main(): i32 {
+    let a = 10;
+    a
+}

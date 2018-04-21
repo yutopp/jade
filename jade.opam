@@ -1,0 +1,18 @@
+opam-version: "1.2"
+maintainer: "yutopp@gmail.com"
+authors: ["yutopp"]
+homepage: "https://github.com/yutopp/jade"
+bug-reports: "https://github.com/yutopp/jade/issues"
+dev-repo: "https://github.com/yutopp/jade.git"
+
+build: [
+  ["jbuilder" "build" "-p" name "-j" jobs]
+]
+
+build-test: [
+  ["jbuilder" "runtest" "-p" name]
+]
+
+depends: [
+  "jbuilder" {build}
+]

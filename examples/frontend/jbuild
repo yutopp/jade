@@ -1,0 +1,21 @@
+(jbuild_version 1)
+
+(ocamllex (lexer))
+
+(menhir
+ ((flags   (--only-tokens))
+  (modules (tokens))))
+
+(menhir
+ ((merge_into parser)
+  (flags      (--external-tokens Tokens -v --explain))
+  (modules    (tokens parser))))
+
+(executables
+ ((names       (main))
+  (libraries   (batteries jade))
+  (preprocess  (pps (ppx_deriving.show)))))
+
+(install
+ ((section bin)
+  (files ((main.exe as rillirc)))))

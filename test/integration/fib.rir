@@ -1,0 +1,21 @@
+module "fib"
+
+extern def print_int(v: i32);
+
+def main() {
+    let a = fib(10);
+    print_int(a);
+    ()
+}
+
+def fib(v: i32): i32 {
+    if v == 0 {
+         0
+    } else {
+        if v == 1 {
+            1
+        } else {
+            fib(v-1) + fib(v-2)
+        }
+    }
+}

@@ -1,0 +1,14 @@
+module "simple07"
+
+struct A {
+  a: i32;
+  b: i1
+}
+
+def main(): A {
+    if false {
+        A { a = 1, b = false }
+    } else {
+        A { b = true, a = 10 }
+    }
+}

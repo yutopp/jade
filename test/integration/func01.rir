@@ -1,0 +1,8 @@
+module "func01"
+
+def main() {
+    f()
+}
+
+def f() {
+}
