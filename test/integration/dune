@@ -1,0 +1,10 @@
+(executable
+ (name      case_runner_main)
+ (libraries jade)
+ (modules   case_runner_main))
+
+(alias
+ (name    runtest)
+ (package jade)
+ (deps    (:t case_runner_main.exe) (glob_files *.rir))
+ (action  (run %{t})))

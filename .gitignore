@@ -1,4 +1,5 @@
 .merlin
+_opam/
 
 # OCaml files
 _build/
